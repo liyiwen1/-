@@ -1,0 +1,267 @@
+body
+{
+	background-image:url(../img/polo360.png);
+	background-repeat: repeat-x;
+	width:1600px;
+}
+
+/*
+ * 解决高度塌陷问题clearfix
+ */
+.clearfix:before,
+.clearfix:after
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.clearfix
+{
+	zoom:1;
+}
+.wid
+{
+	width:940px;
+	margin: 0 330px;
+}
+.header
+{
+	padding-top:37px;
+	padding-bottom: 46px;
+}
+.logo
+{
+	margin-left:15px;
+}
+.nav
+{
+	float:right;
+	padding-top: 22px;
+}
+.nav li
+{
+	float:left;
+	padding:0 10px 10px;
+	border-left:1px #d6d6d6 dotted;
+}
+.nav a
+{
+	color:#666666;
+	font:bold 14px Georgia;
+	text-decoration: none;
+}
+.nav a:hover
+{
+	color:#bcb8b8;
+	text-decoration: underline;
+}
+.nav p
+{
+	color:#b7b7b7;
+	font:11px Tahoma;
+}
+.banner
+{
+	height:356px;
+	background: url(../img/banner/banner-bg.png) no-repeat bottom;
+	position: relative;	
+}
+.pointerDiv
+{
+	position:absolute;
+	top:314px;
+	left:15px;
+}
+.pointerDiv a
+{
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin-left: 4px;
+	background: url(../img/banner/pointer.png) no-repeat;
+}
+.pointerDiv .active,
+.pointerDiv a:hover
+{
+	background: url(../img/banner/pointer-active.png) no-repeat;
+}
+.content
+{
+	background:url(../img/line.png) no-repeat bottom center;
+}
+
+.content h1
+{
+	padding:6px 0 25px 126px;
+	font:bold 24px Georgia;
+	background: url(../img/line.png) no-repeat bottom;
+	margin-bottom: 38px;
+}
+
+.content .per, 
+.content .com, 
+.content .uber,
+.contact .soc,
+.contact .con,
+.contact .new
+{
+	float:left;
+	width:300px;
+}
+.content .com,
+.contact .con
+{
+	margin: 0 15px;
+}
+.content h2
+{
+	font:21px Georgia;
+	color: #11719e;
+}
+
+.content .p1
+{
+	font:12px Helvetica;
+	color:#8c8c8c;
+
+}
+.content .imgDiv
+{
+    margin: 16px 0 10px 0;
+	width: 300px;
+	height: 202px;
+}
+
+.content .p2
+{
+	height: 92px;
+	font: 13px Helvetica;
+	color:#3e3e3e;
+}
+.content .lm
+{
+	display:block;
+	width: 163px;
+	height: 40px;
+	background: url(../img/btn1.png) no-repeat;
+	font: 12px/40px helvetica;
+	color:#016999;
+	text-decoration: none;
+	text-indent: 15px;
+	padding-bottom: 36px;
+}
+.content a:hover
+{
+	color: #069de2;
+	text-decoration: underline;
+}
+
+.contact h2
+{
+	font:18px Georgia;
+	color:#444444;
+	padding: 40px 0 10px;
+	border-bottom:1px dashed #d3d3d3;
+}
+.contact .text
+{
+	width: 276px;
+	height: 33px;
+	background: url(../img/border.png) no-repeat;
+	border: none;
+	margin:16px 0 0 0;
+	padding:0 10px;
+	/*单独为ie6设置*/
+	_background-attachment: fixed;
+}
+.contact .tare
+{
+	width: 276px;
+	height: 134px;
+	background: url(../img/bigBorder.png) no-repeat;
+	border: none;
+	margin: 16px 0 14px 0;
+	padding: 0 10px;
+	overflow: auto;
+	resize: none;
+		/*单独为ie6设置 当字符超过文本框范围时*/
+	_background-attachment: fixed;
+}
+
+.contact .btn
+{
+	width: 163px;
+	height: 32px;
+	background: url(../img/button.png) no-repeat;
+	border:none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-indent: 1em;
+	cursor: pointer;
+	margin-bottom: 23px;
+}
+.contact p
+{
+	color:#444444;
+	font: 12px/1 helvetica;
+	padding:13px 0px 8px 0px;
+}
+.contact .icon
+{
+	font-size: 0;
+}
+
+.soc .lh
+{
+	padding-top:37px;
+	font:bold 18px "gill sans mt";
+}
+
+.soc .text
+{
+	margin:0 0 10px 0;
+}
+
+.new img
+{
+	float: left;
+	width:58px;
+	height:58px;
+	margin-right: 8px;
+}
+.new p
+{
+	height: 62px;
+	border-bottom:1px dashed #d3d3d3;
+}
+
+.new .btn
+{
+	margin-top:10px;
+}
+.footer
+{
+	height: 173px;
+	width: 100%;
+	background-color:#333333;
+	border-top: 10px solid #4c4c4c;
+}
+
+.footer p
+{
+	font:11px helvetica;
+	color:#999999;
+	padding-left: 8px;
+	padding-top:8px;
+}
+.footer .wid
+{
+	padding-top: 8px;
+}
+.footer .copy
+{
+	float: right;
+	padding-right: 23px;
+}
